@@ -1,0 +1,75 @@
+
+  .mission-vision-container {
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin-left: 70px;
+    margin-right: 59px;
+  }
+  .intro-section {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .intro-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .intro-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .points-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+ 
+  .mission-section {
+    flex: 1;
+    background: url('../../public/mission.jpg') no-repeat center center ; 
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    height: 350px;
+    font-family:opensans sans-serif;
+    font-size: large;
+    
+  }
+
+  
+  .vision-section {
+    flex: 1;
+    background: url('../../public/vision.png') no-repeat center center; 
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-family:opensans sans-serif;
+    font-size: large;
+  }
+  
+  /* Title for mission and vision sections */
+  .section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+
+  .points-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .points-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import About from './components/about.jsx'
+import Header from './components/header.jsx';
+import MissionVision from './components/MissionVission.jsx';
+import Services from './components/services.jsx';
+import CoreValues from './components/corevalues.jsx';
+import Footer from './components/footer.jsx';
+import Contact from './components/contact.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <About />
+      <MissionVision/>
+      <Services/>
+      <CoreValues/>
+      <Contact/> 
+      <Footer/>
     </div>
   );
 }

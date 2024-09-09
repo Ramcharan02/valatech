@@ -1,0 +1,78 @@
+/* Basic styling for the header */
+.header {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../../public/valatech.png') no-repeat center center fixed; 
+    background-size: cover; 
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 700px; 
+    align-items: stretch; 
+  }
+  
+ 
+  .Navb {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px ;
+  }
+  
+ 
+  .header-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1; 
+    margin-right: 64rem;
+    margin-bottom: 9rem;
+  }
+  
+ 
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+ 
+  .logo {
+    width: 55px;
+    height: 50px;
+  }
+  
+ 
+  .ct-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #2596ff; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+
+  .ct-button:hover {
+    background-color: #000000; 
+  }
+  
+  .name{
+    margin-top: 15rem;
+    margin-left: 9rem;
+    font-size: x-large;
+  }
