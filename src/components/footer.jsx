@@ -36,8 +36,8 @@ function Footer() {
         <div className="footer-section contact-section">
            <h3 className="footer-title">Get In Touch</h3> 
            <p>hr@valatechnologies.com</p>
-         {/* <p>9300 John Hickman Pkwy, Suite 905</p>
-          <p>Frisco TX – 75035</p> */}
+          <p>7310 Grove Road suite 105 Frederick</p>
+          <p> MD 21704</p> 
         </div>
       </div>
 
